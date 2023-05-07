@@ -71,3 +71,40 @@ body::-webkit-scrollbar {
     left: 0;
     background-color: #6aca90;
 }
+
+
+.cont-intro {
+    margin: 250px 0 350px 0;
+    display: flex;
+    justify-content: center;
+}
+.cont-intro img {
+    width: 230px;
+    margin-right: 40px;
+}
+.txt-title {
+    width: 620px;
+    margin-top: 30px;
+    font-size: 55px;
+    font-family: "GmarketBold";
+    color: #6aca90;
+    line-height: 58px;
+}
+.btn-more {
+    position: absolute;
+    bottom: 36%;
+    padding: 8px 27px;
+    border-radius: 20px;
+    background-color: #6aca90;
+    border: solid 2px #6aca90;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.btn-more:hover {
+    background-color: white;
+    border: solid 2px #6aca90;
+    color: #6aca90;
+    transition: 0.7s ease-out;
+}
+  
