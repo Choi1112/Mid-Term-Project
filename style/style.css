@@ -10,3 +10,64 @@
 * {
     font-family: "GmarketMedium";
 }
+
+body {
+    padding-top: 150px;
+    background-color: #eff2f8;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 45px 60px;
+    background-color: white;
+    color: #6aca90;
+    font-size: 18px;
+    /* border-bottom: 1px solid #e0e3fd; */
+    z-index: 10;
+}
+.nav-list {
+    display: flex;
+    justify-content: right;
+}
+.list-link {
+    margin-left: 70px;
+}
+.list-link:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+.btn-code {
+    padding: 8px 23px;
+    border-radius: 20px;
+    background-color: #6aca90;
+    border: solid 2px #6aca90;
+    color: white;
+}
+.btn-code:hover {
+    background-color: white;
+    border: solid 2px #6aca90;
+    color: #6aca90;
+    transition: 0.2s ease-out;
+}
+.bar-bg {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #6aca90;
+}
+.bar-ing {
+    position: absolute;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #6aca90;
+}
