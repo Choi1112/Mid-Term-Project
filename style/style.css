@@ -107,4 +107,46 @@ body::-webkit-scrollbar {
     color: #6aca90;
     transition: 0.7s ease-out;
 }
-  
+
+
+.section-about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 80px 0 140px 0;
+    margin: 0 0 140px 0;
+}
+.section-about h2 {
+    margin: 0 auto 100px;
+    display: inline-block;
+    font-family: "GmarketBold";
+    color: #6aca90;
+    font-size: 40px;
+}
+.cont-about {
+    display: flex;
+    margin: 0 auto;
+}
+
+.info-about {
+    margin: 0 0 0 60px;
+}
+
+.txt-about dt {
+    display: inline-block;
+    margin-bottom: 17px;
+    width: 110px;
+    font-size: 22px;
+    font-family: "GmarketBold";
+    color: #6aca90;
+}
+
+.txt-about {
+    margin-top: 55px;
+}
+
+.txt-about dd {
+    display: inline-block;
+    font-size: 22px;
+}
