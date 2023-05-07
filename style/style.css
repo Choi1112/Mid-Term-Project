@@ -197,7 +197,24 @@ body::-webkit-scrollbar {
     font-size: 20px;
 }
 
+.btn-detail2 {
+    cursor: pointer;
+    padding: 10px 236px;
+    border-radius: 15px;
+    border: none;
+    background-color: #6aca90;
+    border: solid 2px #6aca90;
+    color: white;
+    font-size: 20px;
+}
+
 .btn-detail:hover {
+    background-color: white;
+    border: solid 2px #6aca90;
+    color: #6aca90;
+}
+
+.btn-detail2:hover {
     background-color: white;
     border: solid 2px #6aca90;
     color: #6aca90;
